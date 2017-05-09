@@ -93,9 +93,52 @@ footer{
 footer a{color: #dce7ef;}
 footer a:hover{ text-decoration: underline;}
 
+.content{
+    position: relative;
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
+
+.content p{ margin-top: 30px; }
+
+.content img{ 
+    position: absolute;
+    left: 20px;
+    top: -60px;
+    border: 5px solid #c5d2db;
+}
+
+@media (max-width: 1200px){
+    .home{padding: 20px; }
+} 
+
 @media (max-width:979px){
     .navbar .btn-navbar{
         float: right;
         margin-top: 20px;
     }
+    
+    .navbar .nav>li>a{
+        width: 100%;
+        text-align: right;
+    }
+}
+
+@media (max-width: 767px){
+    .down{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    footer a{padding-right: 10px;}
+    
+    .content img{ top: 310px;}
+}
+
+@media(max-width: 700px){
+    .content img{display: none;}
+}
+
+@media(max-width:400px){
+    .slideshow{display: none;}
 }
