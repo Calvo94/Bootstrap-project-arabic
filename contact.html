@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <title>Doctors</title>
+
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width-device-width, intial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+
+  </head>
+  <body>
+    <header>
+        <!-- navbar to create navbar
+            navbar-inverse to inverse to color and set it to black
+            navbar-static-top to delete rounded corners
+            active to show to the users that you're in the current page
+            btn : boutton
+            btn-navbar : to make it in the navbar
+            data-toggle="collapse" data-target=".nav-collapse" : to make the button collapse the whole navigation when u reduce the size & you show it when u click on it
+            pull-left : to pull the image to the left
+        -->
+        <nav class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                
+                <a class="btn btn-navbar pull-right" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar "></span>
+                    <span class="icon-bar "></span>
+                    <span class="icon-bar "></span>
+                </a>
+                
+                <h3 class="pull-left">
+                    <a href="index.html" >
+                        <img src="img/logo.png" alt="doctors logo" />
+                    </a>    
+                </h3>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li ><a href="index.html">الرئيسية</a></li>
+                        <li><a href="#">تعرف علينا</a></li>
+                        <li><a href="tips.html">نصائح</a></li>
+                        <li><a href="#">ملاحظات</a></li>
+                        <li class="active"><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+      
+    <div class="container  top">
+      
+        <section class="row contact">
+            <form>
+                <fieldset>
+                   <label>الإسم الأول</label>
+                    <input class="span6" type="text" placeholder="الإسم الشخصي">
+                   <label>اسم العائلة</label>
+                    <input class="span6" type="text" placeholder="اسم العائلة">
+                   <label>رقم الهاتف</label>
+                    <input class="span6" type="text" placeholder="هاتف المحمول">
+                   <label>البريد الإلكتروني</label>
+                    <input class="span6" type="text" placeholder="البريد الإلكتروني">
+                    
+                    <label>بدء الألم منذ</label>
+                    <label class="checkbox inline"><input type="checkbox" id="inlineCheckbox1" value="option1">أيام</label>
+                    <label class="checkbox inline"><input type="checkbox" id="inlineCheckbox2" value="option2">شهور</label>
+                    <label class="checkbox inline"><input type="checkbox" id="inlineCheckbox3" value="option3">سنوات</label>
+                    
+                    <label>حالات الجسم</label>
+                    <select>
+                        <option>الام الظهر</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                    <label class="control-label">الموضوغ</label>
+                    <textarea class="span6" rows="10" placeholder="عن مادا تريد أن تتكلم"></textarea>
+                    <button class="btn btn-info submit">أرسل الرسالة <i class="icon-envelope icon-white"></i></button>
+                </fieldset>
+            </form>
+        </section>
+        
+      
+      
+      
+      
+    <footer class="row">
+        <div class="span3">
+            <p><a href="#">doctors.com &copy;</a></p>
+        </div>
+     </footer>
+    </div>
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

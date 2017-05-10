@@ -9,7 +9,7 @@ body{
     background: url(../img/body.jpg) repeat;
 }
 
-h1,h3,h4, .navbar .nav>li>a:hover{
+h1,h3,h4, .navbar .nav>li>a:hover,label{
     font-family: 'Droid Arabic Kufi', sans-serif;
     text-shadow: 1px 1px #8f8f8f;
 }
@@ -116,6 +116,21 @@ footer a:hover{ text-decoration: underline;}
 #rules{
     background: #c5d2db;
 }
+
+.top{ margin-top: 50px;}
+
+label,input,button,select,textarea{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submit{display: block;}
 
 @media (max-width: 1200px){
     .home{padding: 20px; }
