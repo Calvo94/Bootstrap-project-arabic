@@ -108,6 +108,15 @@ footer a:hover{ text-decoration: underline;}
     border: 5px solid #c5d2db;
 }
 
+.tip{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+#rules{
+    background: #c5d2db;
+}
+
 @media (max-width: 1200px){
     .home{padding: 20px; }
 } 
